@@ -56,7 +56,7 @@
                         bindings = <
    &kp ESC   &kp Q           &kp W           &kp E              &kp R              &kp T              &kp Y            &kp U           &kp I            &kp O            &kp P             &kp BSPC
    &kp TAB   &lh_pht LGUI A  &lh_pht LALT S  &lh_pht LCTL D     &lh_pht LSFT F     &kp G              &kp H            &lh_pht LSFT J  &lh_pht LCTL K   &lh_pht LALT L   &lh_pht LGUI SEMI &kp SQT
-   &td0      &kp Z           &kp X           &kp C              &kp V              &kp B              &kp N            &kp M           &td1             &kp DOT          &kp FSLH          &kp ESC
+   &td0      &kp Z           &kp X           &kp C              &kp V              &kp B              &kp N            &kp M           &td1             &kp DOT          &kp FSLH          &kp ENT
                   &lt NU ENT   &lt FN DEL    &lt SY SPACE             &lt SY SPACE  &lt FN DEL   &lt NU ENT
                         >;
                 };
@@ -118,7 +118,7 @@
                 };
 
         };
-/ {
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
@@ -126,6 +126,5 @@
             then-layer = <AD>;
         };
     };
-};
 
 };
