@@ -64,7 +64,7 @@
                         bindings = <
    &kp ESC   &kp Q           &kp W           &kp E              &kp R              &kp T              &kp Y            &kp U           &kp I            &kp O            &kp P             &kp BSPC
    &kp TAB   &lh_pht LGUI A  &lh_pht LALT S  &lh_pht LCTL D     &lh_pht LSFT F     &kp G              &kp H            &lh_pht RSFT J  &lh_pht RCTL K   &lh_pht RALT L   &lh_pht RGUI SEMI &kp SQT
-   &td0      &kp Z           &kp X           &kp C              &kp V              &kp B              &kp Na            &kp M           &td1             &kp DOT          &kp FSLH          &kp ENT
+   &td0      &kp Z           &kp X           &kp C              &kp V              &kp Ba              &kp N            &kp M           &td1             &kp DOT          &kp FSLH          &kp ENT
                   &lt NU ENT   &lt FN DEL    &lt SY SPACE             &lt SY SPACE  &lt FN DEL   &lt NU ENT
                         >;
                 };
