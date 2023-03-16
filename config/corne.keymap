@@ -39,9 +39,17 @@
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp COMMA>, <&kp LS(CAPS)>;
+            bindings = <&kp COMMA>, <&kp LS(COMMA)>;
         };
 
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <FN SY>;
+            then-layer = <AD>;
+        };
     };
 
         keymap {
@@ -118,13 +126,4 @@
                 };
 
         };
-
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <FN SY>;
-            then-layer = <AD>;
-        };
-    };
-
 };
