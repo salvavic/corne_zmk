@@ -6,15 +6,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define DEFAULT   0
-#define FN        1
-#define SY        2
-#define NU        3
-#define AD        4
-
-
 / {
-    behaviors {
+    // behaviors {
 
         // lh_pht: left_hand_positional_hold_tap {
         //     compatible = "zmk,behavior-hold-tap";
@@ -53,7 +46,7 @@
         //     bindings = <&kp>, <&kp>;
         // };
 
-    };
+    // };
 
     // conditional_layers {
     //     compatible = "zmk,conditional-layers";
