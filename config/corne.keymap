@@ -53,7 +53,7 @@
     };
 
         keymap {
-                compatible = "zmk,behavior-caps-word,keymap";
+                compatible = "zmk,behavior-hold-tap,keymap";
 
                 default_layer {
 // --------------------------------------------------------------------------------
