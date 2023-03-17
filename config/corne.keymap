@@ -64,7 +64,7 @@
     // };
 
         keymap {
-                compatible = "zmk,keymap";
+                compatible = "zmk,behavior-caps-word,keymap";
 
                 default_layer {
 // --------------------------------------------------------------------------------
