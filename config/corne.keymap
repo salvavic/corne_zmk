@@ -26,31 +26,31 @@
             // hold-trigger-key-positions = <5 6 7 8 9 10>;    // <---[[right-hand keys]]
         };
 
-        td0: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp LSFT>, <&kp CAPS>;
-        };
+        // td0: tap_dance_0 {
+        //     compatible = "zmk,behavior-tap-dance";
+        //     label = "TAP_DANCE_0";
+        //     #binding-cells = <0>;
+        //     tapping-term-ms = <200>;
+        //     bindings = <&kp LSFT>, <&kp CAPS>;
+        // };
 
-        td1: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp COMMA>, <&kp LS(COMMA)>;
-        };
+        // td1: tap_dance_1 {
+        //     compatible = "zmk,behavior-tap-dance";
+        //     label = "TAP_DANCE_1";
+        //     #binding-cells = <0>;
+        //     tapping-term-ms = <200>;
+        //     bindings = <&kp COMMA>, <&kp LS(COMMA)>;
+        // };
 
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <4>;
-        };
-    };
+    // conditional_layers {
+    //     compatible = "zmk,conditional-layers";
+    //     tri_layer {
+    //         if-layers = <1 2>;
+    //         then-layer = <4>;
+    //     };
+    // };
 
         keymap {
                 compatible = "zmk,behavior-hold-tap,keymap";
@@ -64,7 +64,7 @@
                         bindings = <
    &kp ESC   &kp Q           &kp W           &kp E              &kp R              &kp T              &kp Y            &kp U           &kp I            &kp O            &kp P             &kp BSPC
    &kp TAB   &lh_pht LGUI A  &lh_pht LALT S  &lh_pht LCTL D     &lh_pht LSFT F     &kp G              &kp H            &lh_pht RSFT J  &lh_pht RCTL K   &lh_pht RALT L   &lh_pht RGUI SEMI &kp SQT
-   &td0      &kp Z           &kp X           &kp C              &kp V              &kp B              &kp N            &kp M           &td1             &kp DOT          &kp FSLH          &kp RET
+   &LSFT      &kp Z           &kp X           &kp C              &kp V              &kp B              &kp N            &kp M           &COMMA             &kp DOT          &kp FSLH          &kp RET
                   &lt 3 RET   &lt 1 DEL    &lt 2 SPACE             &lt 2 SPACE  &lt 1 DEL   &lt 3 RET
                         >;
                 };
