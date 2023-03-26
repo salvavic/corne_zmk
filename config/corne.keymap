@@ -88,7 +88,7 @@
    &kp LSHFT  &trans       &kp LC(X)       &kp LC(V)       &kp LC(C)       &trans         &kp HOME &kp LEFT &kp DOWN &kp RIGHT &kp END &kp PSCRN
                           	        &kp BSPC     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
-                };
+                };|
 
                 symbol_layer {
 // -----------------------------------------------------------------------------------------
