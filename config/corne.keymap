@@ -78,7 +78,7 @@
 
                 function_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |€¡¿
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
@@ -97,9 +97,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans  &kp LS(N0) &kp LS(RBKT)  &kp RBKT     &kp LA(N2)   &kp RA(GRAVE)       &kp RA(N5)       &kp LS(N4)        &kp RA(LBKT) &kp RA(RBKT)   &kp GRAVE    &kp DEL
-   &trans  &kp LS(N2) &kp KP_MINUS  &kp LS(N7)   &kp LS(N6)   &kp RA(N1)          &kp KP_EQUAL     &kp LS(N1)        &kp LS(N8)   &kp LS(N9)     &kp KP_MINUS &kp LS(LBKT)
-   &trans  &kp NUBS   &kp LS(NUBS)  &kp LS(N5)   &kp FSLH     &kp RA(N3)          &kp LS(KP_EQUAL) &kp LS(KP_MINUS)  &kp RA(APOS) &kp RA(NUHS)   &kp RA(LBKT)     &trans
+   &trans  &kp LS(N0) &kp LS(RBKT)  &kp RBKT     &kp LA(N2)   &kp AT              &kp RA(N5)       &kp LS(N4)        &kp RA(LBKT) &kp RA(RBKT)   &kp GRAVE    &kp DEL
+   &trans  &kp LS(N2) &kp KP_MINUS  &kp LS(N7)   &kp LS(N6)   &kp RA(N1)          &kp EXCL         &kp RS(N1)        &kp LS(N8)   &kp LS(N9)     &kp KP_MINUS &kp LS(LBKT)
+   &trans  &kp NUBS   &kp LS(NUBS)  &kp LS(N5)   &kp FSLH     &kp RA(N3)          &kp LS(EQUAL)    &kp RS(MINUS)     &kp RA(APOS) &kp RA(NUHS)   &kp RA(LBKT)     &trans
                     	            &trans       &trans       &trans              &trans           &trans            &trans
                         >;
                 };
