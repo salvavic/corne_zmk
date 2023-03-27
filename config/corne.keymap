@@ -92,8 +92,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans     &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6   &kp F7   &kp F8   &kp F9    &kp F10 &kp F11
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans   &kp DOWN &kp UP   &trans    &trans  &kp F12
-   &kp LSHFT  &trans       &kp LC(X)       &kp LC(V)       &kp LC(C)       &trans         &kp HOME &kp LEFT &kp DOWN &kp RIGHT &kp END &kp PSCRN
+   &kp K_APP  &trans       &trans       &trans       &kp trans    &kp LC(F4)     &trans   &kp DOWN &kp UP   &trans    &trans  &kp F12
+   &kp LSHFT  &trans       &kp LC(X)    &kp LC(V)    &kp LC(C)    &trans         &kp HOME &kp LEFT &kp DOWN &kp RIGHT &kp END &kp PSCRN
                           	        &kp BSPC     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
@@ -106,7 +106,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans  &kp LS(N0) &kp LS(RBKT)  &kp RBKT     &kp RA(N2)   &kp RA(GRAVE)       &kp RA(N5)       &kp LS(N4)        &kp RA(LBKT) &kp RA(RBKT)   &kp GRAVE    &kp DEL
-   &trans  &kp LS(N2) &kp KP_MINUS  &kp LS(N7)   &kp LS(N6)   &kp RA(N1)          &kp EQUAL        &kp RS(N1)        &kp LS(N8)   &kp LS(N9)     &kp KP_MINUS &kp LS(LBKT)
+   &trans  &kp LS(N2) &kp APOS      &kp LS(N7)   &kp LS(N6)   &kp RA(N1)          &kp EQUAL        &kp RS(N1)        &kp LS(N8)   &kp LS(N9)     &kp KP_MINUS &kp LS(LBKT)
    &trans  &kp NUBS   &kp LS(NUBS)  &kp LS(N5)   &kp FSLH     &kp RA(N3)          &kp LS(EQUAL)    &kp RS(MINUS)     &kp RA(APOS) &kp RA(NUHS)   &kp RA(LBKT)     &trans
                     	            &trans       &trans       &trans              &trans           &trans            &trans
                         >;
