@@ -98,9 +98,9 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  -  | RET  |
 //                    | N/R | F/D | S/S |   | N/R | F/D  | N/R |
                         bindings = <
-   &kp ESC   &kp Q      &kp W      &kp E      &kp R      &kp T   &kp Y &kp U       &kp I      &kp O       &kp P         &kp BSPC
-   &kp TAB   &kp A      &hm LALT S &hm LCTL D &hm LSFT F &kp G   &kp H &hm LSFT J  &hm LCTL K &hm LALT L  &hm LGUI SEMI &kp SQT
-   &kp LSHFT &kp Z      &kp X      &kp C      &kp V      &kp B   &kp N &kp M       &td1       &td2        &kp FSLH      &kp RET
+   &hm LGUI ESC   &kp Q      &kp W      &kp E      &kp R      &kp T   &kp Y &kp U       &kp I      &kp O       &kp P         &kp BSPC
+   &kp TAB        &kp A      &hm LALT S &hm LCTL D &hm LSFT F &kp G   &kp H &hm LSFT J  &hm LCTL K &hm LALT L  &hm LGUI SEMI &kp SQT
+   &kp LSHFT      &kp Z      &kp X      &kp C      &kp V      &kp B   &kp N &kp M       &td1       &td2        &kp FSLH      &kp RET
                   &lt 3 RET &lt 1 DEL &lt 2 SPACE        &lt 2 SPACE &lt 1 DEL &lt 3 RET
                         >;
                 };
@@ -109,7 +109,7 @@
 // -----------------------------------------------------------------------------------------
 // |      | F1  | F2  | F3  | F4  | F5  |   | F6  | F7  | F8  | F9  | F0  |  F11 |
 // | APP  |     |     |     |     |C(4) |   |     |     |  UP |     |     |      |
-// |      |     |     |     |     |A(5) |   | HOME| LEFT| DOWN| RIGH| END | PRINT|
+// |      |     | C(X)| C(V)| C(C)|A(5) |   | HOME| LEFT| DOWN| RIGH| END | PRINT|
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans     &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6   &kp F7   &kp F8   &kp F9    &kp F10 &kp F11
@@ -135,9 +135,9 @@
 
                 numeric_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// |      |     |     |     |     |     |   |     |     |     |     |     | BKSP |
+// | CAPS |     |     |     |     |     |   |     |     |     |     |     |      |
+// | GUI  |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans     &trans     &trans         &trans       &trans       &trans       &trans   &kp N7   &kp N8 &kp N9    &trans &kp DEL
